@@ -623,9 +623,9 @@ a:hover:after {
   }
   .contatc-icon {
       display: block;
-      min-width: 40px;
-      min-height: 40px;
-      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      margin-right: 20px;
   }
   /*CONATCT END*/
 
