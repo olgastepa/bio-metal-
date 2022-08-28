@@ -257,7 +257,13 @@ a:hover:after {
       align-items: center;
       flex-direction: column;
       width: 300px;
-
+  }
+  .services-container {
+    height: 100%!important;
+    align-items: flex-start;
+  }
+  .services-box {
+      width: 50%;
   }
   .text-center {
       text-align: center;
@@ -569,6 +575,10 @@ a:hover:after {
   }
   .product-page {
     background-image: url(assets/products-bg.jpg);  
+  }
+  .services-page {
+    background-image: url(assets/services-bg.png); 
+    background-position: bottom;
   }
   .text-list{
       padding: 0;
