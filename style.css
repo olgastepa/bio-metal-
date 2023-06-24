@@ -359,7 +359,7 @@ a:hover:after {
   }
   
   .news-item {
-    border: 1px solid var(--blue);
+    border: none;
     border-radius: 4px;
     margin: 30px;
     width: 270px;
@@ -500,6 +500,17 @@ a:hover:after {
     .footer {
         width: 200px;
     }
+  .product-container-extra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-image {
+    width: auto;
+    margin: none!important;
+  }
 }
 .nav-active {
     transform: translateX(0%);
@@ -662,7 +673,7 @@ a:hover:after {
       margin-top: 50px;
   }
   .product-box {
-     border: 1px solid var(--green);
+     border: none;
      border-radius: 4px;
      width: 300px;
      height: 500px;
@@ -679,6 +690,17 @@ a:hover:after {
       display: block;
       margin-bottom: 10px;
       margin-top: 10px;
+  }
+  .product-container-extra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .product-image {
+    width: 400px;
+    height: auto;
+    margin: 20px;
   }
   .products-heading {
       margin-bottom: 30px;
